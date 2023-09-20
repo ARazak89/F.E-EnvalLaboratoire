@@ -1,0 +1,877 @@
+body {
+    max-width: 1440px;
+    font-size: 16px;
+    color: #8f8a8a;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    color: rgb(59, 59, 59);
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #79B51C !important;
+}
+
+input:focus~.rech {
+    background-color: red;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn,
+.btn-md {
+    background-color: #3697ab;
+    color: #fff;
+    border: 2px solid #3697ab;
+    font-size: 16px;
+}
+
+.btn:hover,
+.btn-md:hover {
+    background-color: #fff !important;
+    color: #3697ab !important;
+    border: 1px solid #3697ab;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    background: #E7F9FD;
+    height: 1200px;
+    ;
+}
+
+/* Sidebar */
+
+#sidbar {
+    background-color: white;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    /* margin-left: 1%; */
+    margin-bottom: 2%;
+}
+
+#sidbar a {
+    text-decoration: none;
+}
+
+#Slogo {
+    width: 13rem;
+    align-items: center;
+}
+
+#bot {
+    position: absolute;
+    top: 80%;
+    align-items: center;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 2rem 1rem;
+    padding: 0.5rem 0;
+
+    font-size: 20px;
+}
+
+#menu li:hover,
+#menu li span:hover {
+    background-color: #1998a8 !important;
+    color: #fff;
+    border-radius: 10px;
+    padding-right: 1rem;
+}
+
+#menu li.active {
+    background-color: #1998a8 !important;
+    border-radius: 10px;
+    padding-right: 1rem;
+}
+
+/* ENd Sidebar */
+
+/* navbar */
+#right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    width: 79%;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: #fff;
+    height: 5rem;
+    width: 99%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    /* border: 2px solid; */
+    display: inline;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right i {
+    margin-top: 1%;
+}
+
+.nav-right span {
+    margin-top: 1%;
+    margin-left: -1%;
+}
+
+.nav-right i {
+    font-size: 2.5rem;
+}
+
+.nav-right span {
+    color: red;
+}
+
+.nav-left {
+    width: 4rem;
+}
+
+.nav-left i {
+    font-size: 2rem;
+    display: none;
+}
+
+#contenu {
+    background-color: #fff;
+    width: 99%;
+    /* border: 2px solid blue; */
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+/* table */
+
+.table {
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.enteteTab {
+    display: flex !important;
+}
+
+.inputTab {
+    position: relative;
+    left: 60%;
+    margin-top: 1%;
+}
+
+.inputTabCom {
+    position: relative;
+    left: 55%;
+    margin-top: 1%;
+}
+
+.inputTabSuivi {
+    position: relative;
+    left: 45%;
+    margin-top: 1%;
+}
+
+
+.table thead tr th {
+    height: 3rem;
+    border-top: 1px solid;
+    background-color: #1898A8;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.table tbody tr td {
+    height: 3rem;
+    /* border:0.5px solid; */
+    border-right: 0.5px solid;
+    border-top: 0.5px solid;
+
+}
+
+#detail table tr td {
+    height: 10%;
+}
+
+.table tbody tr td:last-child {
+    border-right: none;
+}
+
+.table tbody tr:hover {
+    background-color: #cccccc84;
+}
+
+.table tbody tr:first-child:hover {
+    background-color: none !important;
+}
+
+.btn-md {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.tsearch {
+    border: none;
+    width: 20rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    background: rgb(228, 224, 224);
+}
+
+.rech {
+    border: 1px solid;
+    width: 18rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+/* table */
+
+/* S Client */
+.form-SC label {
+    font-size: 20px;
+    /* margin-bottom: 2rem; */
+}
+
+#form2Example1 {
+    width: 99%;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: #cccccc70;
+    border: none;
+}
+
+#textAreaExample {
+    width: 99%;
+    height: 20rem;
+    margin-bottom: 2rem;
+    background-color: #cccccc70;
+    border: none;
+}
+
+#btn-SC {
+    width: 99%;
+    height: 2.5rem;
+    border-radius: 5px;
+
+}
+
+/* S client */
+
+/* details */
+#detail h2 {
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.imag {
+    width: 15rem;
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+}
+
+.log {
+    width: 20rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.log1 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #1898A8;
+}
+
+.log2 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #79B51C;
+}
+
+#rap {
+    text-align: center;
+}
+
+#tab1,
+#tab2,
+#tab3 {
+    border: 1.5px solid;
+    text-align: left;
+    font-size: smaller;
+
+}
+
+#tab1 tbody tr td {
+    border: none;
+    height: 1.5rem;
+
+}
+
+#tab2 tbody tr td {
+    border: none;
+    height: 1.5rem;
+    text-align: center;
+}
+
+#tab1 thead tr th,
+#tab2 thead tr th,
+#tab3 thead tr {
+    background-color: #E7F9FD !important;
+}
+
+/* #tab3 thead th{
+    background-color: #cccccc84;
+} */
+#tab3 tbody tr td {
+    border-right: none;
+    height: 2rem;
+}
+
+.bg-danger {
+    background-color: red;
+}
+
+.bg-warning {
+    background-color: #FFA500;
+}
+
+/* details */
+
+
+#profil {
+    width: 4rem;
+    border-radius: 50%;
+    justify-content: end;
+}
+
+/* Progress bar */
+.Pos1 {
+    width: 15rem;
+    width: 15rem;
+    border-radius: 10%;
+    text-align: center;
+    background-color: #4A96A6;
+    margin: 1rem;
+}
+
+.Pos2 {
+    color: black;
+    width: 15rem;
+    width: 15rem;
+    border-radius: 10%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #4A96A6;
+    margin: 1rem;
+}
+
+
+.progressBar {
+    display: flex;
+    flex-direction: row;
+}
+
+#note1 {
+    position: absolute;
+    top: 25rem;
+    left: 26.5rem;
+}
+
+#note1 h2 {
+    font-size: 35px;
+}
+
+#note2 {
+    position: absolute;
+    top: 25rem;
+    left: 44rem;
+}
+
+#note2 h2 {
+    font-size: 35px;
+}
+
+
+.Positif h5,
+.Negative h5 {
+    font-size: larger;
+    text-align: center;
+}
+
+.Pos1 div i {
+
+    font-size: 2rem;
+    color: #fff;
+}
+
+.Pos2 div i {
+
+    margin-top: auto;
+    font-size: 2rem;
+    color: #4A96A6;
+}
+
+.Posi1 {
+    margin-left: 35%;
+    width: 4rem;
+    height: 4rem;
+    background: #4A96A6;
+    border-radius: 50%;
+}
+
+.Posi2 {
+    margin-left: 35%;
+    width: 4rem;
+    height: 4rem;
+    background: #b2dfe9;
+    border-radius: 50%;
+}
+
+/* .progressBar */
+
+
+#grad1 {
+    text-align: right;
+    height: 10rem;
+    width: 25rem;
+    background-color: green;
+    background-image: linear-gradient(to right, #5b9c02, #868d00, #ad7700, #d05600, #eb1212);
+
+}
+
+.bas {
+    display: flex;
+}
+
+
+/* Parametre de compte */
+
+.titreCompte {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titreLeftCompte {
+    justify-content: end;
+    width: 50%;
+}
+
+.titreRightCompte {
+    padding-top: 2%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenueCompte {
+    display: flex;
+}
+
+.compteLeft {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+    width: 70%;
+
+}
+
+.compteRight {
+    margin-left: 0.5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.compteRight img {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.inputNameCompte,
+.inputMailCompte,
+.inputBioCompte {
+    display: flex;
+    flex-direction: column;
+}
+
+#parametreCompte input {
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    background-color: #edebeb;
+    border: none !important;
+    border-radius: 10px;
+}
+
+#parametreCompte textarea {
+    border-radius: 10px;
+    background-color: #edebeb;
+
+}
+
+.titreRightCompte button {
+    width: 40%;
+    height: 2.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.compteRight button {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.submitCompte {
+    width: 100%;
+    background-color: #1898A8 !important;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.notif {
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    width: 25rem;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 10;
+    display: none;
+    border: 2px solid #1898A8 !important;
+}
+
+.notif .titreNotif {
+    background-color: #1898A8;
+    border-radius: 10px;
+}
+
+.notif .titreNotif h2 {
+    margin: 0px !important;
+    color: #fff
+}
+
+.notif .corpsNotif {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 2rem;
+    padding-top: 0.5rem;
+    color: #000;
+
+}
+
+.titreLeftCompte a {
+    color: #1898A8;
+    font-size: 15px;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+.titreLeftCompte a:hover {
+    font-size: 22px;
+}
+
+/* Parametre de compte */
+/* <!-- ======================== Modifier Mot de passe =============================== --> */
+
+.MpModifier {
+    margin: auto;
+    background-color: #fff;
+    width: 20rem;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    z-index: 50;
+    display: none;
+}
+
+.MpModifier div {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.MpModifier input {
+    /* width: 100%; */
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #edebeb;
+}
+
+/* <!-- ======================== Modifier Mot de passe =============================== --> */
+/*Ecran 1024*/
+@media screen and (max-width:1024px) {
+    #menu li {
+        font-size: 16px;
+    }
+
+    #note1 {
+        position: absolute;
+        top: 25rem;
+        left: 21rem;
+    }
+
+    #note2 {
+        position: absolute;
+        top: 25rem;
+        left: 38rem;
+    }
+
+    .inputTab {
+        position: relative;
+        left: 47%;
+        margin-top: 1%;
+    }
+
+    .inputTabCom {
+        position: relative;
+        left: 41%;
+        margin-top: 1%;
+    }
+
+    .inputTabSuivi {
+        position: relative;
+        left: 28%;
+        margin-top: 1%;
+    }
+}
+
+/*Ecran 1024*/
+
+/* Tablette */
+@media screen and (max-width:768px) {
+
+    #sidbar span,
+    #Slogo {
+        display: none;
+    }
+
+    #sidbar {
+        width: 10%;
+    }
+
+    #right {
+        margin-left: 11%;
+    }
+
+    #navbar,
+    #contenu {
+        width: calc(100% + 10%);
+    }
+
+    #content {
+        height: 900px;
+    }
+
+    #detail #content {
+        height: 1800px;
+    }
+
+    #note1 {
+        position: absolute;
+        top: 25rem;
+        left: 13.5rem;
+    }
+
+    #note2 {
+        position: absolute;
+        top: 25rem;
+        left: 31rem;
+    }
+
+    .tsearch {
+        width: 15rem;
+    }
+
+    .inputTabSuivi {
+        position: relative;
+        left: 25%;
+        margin-top: 1%;
+    }
+}
+
+/* Tablette */
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+
+    #sidbar {
+        display: none;
+    }
+
+    .nav-left i {
+        display: block;
+    }
+
+    .nav-right {
+        margin-left: 60%;
+    }
+
+    #sidbar:target {
+        display: block;
+    }
+
+    #right {
+        margin-left: 1%;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar,
+    #contenu {
+        width: calc(100% + 20%);
+        table-layout: fixed;
+
+    }
+
+    #content {
+        height: 900px;
+    }
+
+    #dash #content {
+        height: 1300px;
+    }
+
+    #detail #content {
+        height: 1800px;
+    }
+
+    .progressBar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Pos1,
+    .Pos2 {
+        margin-left: 3rem;
+    }
+
+    .chartBar {
+        margin-left: 3rem;
+    }
+
+    #note1 {
+        position: absolute;
+        top: 25rem;
+        left: 10.5rem;
+    }
+
+    #note2 {
+        position: absolute;
+        top: 53rem;
+        left: 10.5rem;
+    }
+
+    .bas {
+        flex-direction: column;
+    }
+
+    #grad1 {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .tab {
+        overflow-x: scroll;
+        /* Ajoutez un débordement horizontal au tableau */
+        white-space: nowrap;
+        /* Évitez le retour à la ligne du contenu du tableau */
+    }
+
+    .enteteTab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        display: none;
+    }
+
+    .inputTab,
+    .inputTabSuivi,
+    .inputTabCom {
+        position: relative;
+        left: 0px;
+        margin-top: 1%;
+    }
+
+    .hack1,
+    .hack2,
+    .hack3,
+    .hack-com,
+    .hack-suiv {
+        overflow-x: auto;
+        width: 100%;
+    }
+.titreCompte{
+    display: flex;
+    flex-direction: column;
+}
+.contenueCompte{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.titreLeftCompte,
+.titreRightCompte,
+.compteLeft,
+.compteRight{
+    width: 98%;
+    text-align: center;
+}
+
+.compteLeft label{
+   font-size: 20px;
+}
+.MpModifier{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.notif {
+    position: absolute;
+    top: 7%;
+ left: 2%;
+    width: 25rem;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 10;
+    display: none;
+    border: 2px solid #1898A8 !important;
+}
+}
+
+/* Mobile */

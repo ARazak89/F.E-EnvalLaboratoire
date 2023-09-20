@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Connexion.css ">
+    <link rel="stylesheet" href="CSS/global.css">
+
+   
+
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="connexion" id="connexion">
+        <div class="logo" id="logo">
+            <img src="Image/inval.png" alt="logo de Enval" id="log">
+            <span class="log1">Connexion</span>
+            <span class="log2">Espace Client</span>
+        </div>
+        <form class="conn" id="loginForm">
+            <!-- Email input -->
+            <div class="" id="email">
+                <input type="text" id="login" class="form-control" placeholder="Login" />
+            </div>
+
+            <!-- Password input -->
+            <div class="password" id="password"> <!-- Hassane Abdel-Razak -->
+                <input type="password" id="pass" class="form-control" placeholder=" Mot de passe" />
+                <div class="forget">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                </div>
+            </div>
+            <!-- Submit button -->
+            <div>
+                <button class="btn-bout sub" id="con" type="submit"
+                    style="text-align: center; border: none; border-radius: 10px; font-size: 22px;">Connexion</button>
+            </div>
+        </form>
+    </div>
+    <div class="message">
+        <div class="entete" style="background-color: green;color: aliceblue;">
+            <h2>Connexion</h2>
+        </div>
+        <div class="corps" style="color: green;">
+            <span class="spanCorps">Oupsss !!! La combinaison login/mot de passe est incorrect</span>
+        </div>
+    </div>
+
+    <div class="chrono">
+        <div class="entete">
+            <h2>Timer déblockage</h2> <!-- Hassane Abdel-Razak -->
+        </div>
+        <div class="corps">
+            <span id="compteur">00:00:00</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

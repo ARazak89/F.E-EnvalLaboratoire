@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <title>Service Client</title>
+</head>
+
+<body>
+    <div class="content" id="content">
+        <!-- debut sidebar -->
+        <div class="sidbar" id="sidbar">
+            <div>
+                <img src="Image/inval.png" alt="logo" id="Slogo">
+            </div>
+
+            <ul id="menu">
+                <li class="">
+                    <a href="dashboard.html" class="">
+                        <i class="fs-4 bi bi-grid"></i> <span class="">Dashboard</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="facture.html" class="">
+                        <i class="fs-4 bi bi-receipt"></i> <span class="">Facture</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="commande.html" class="">
+                        <i class="fs-4 bi bi-car-front-fill"></i> <span class="">Commande</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="suivi.html" class="">
+                        <i class="fs-4 bi bi-bag"></i> <span class="">Suivi</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="serviceClient.html" class="">
+                        <i class="fs-4 bi bi-chat-left-text"></i> <span class="">Service Client</span>
+                    </a>
+                </li>
+                <div class="bot" id="bot">
+                    <li class=""> <!-- Hassane Abdel-Razak -->
+                        <a href="compte.html" class="">
+                            <i class="fs-4 bi bi-gear"></i> <span class="">Paramètre Compte</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="">
+                            <i class="fs-4 bi bi-box-arrow-left"></i> <span class="">Déconnexion</span>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <!-- fin sidebar -->
+
+        <!-- debut élément droit -->
+        <div class="right" id="right">
+            <!-- debut navbar -->
+            <div class="navbar" id="navbar">
+                <div class="nav-left">
+                <a href="#sidbar" class="btnh" id="btn_menu">
+                    <span class="burger"> <i class="bi bi-list"></i></span>
+                  </a>
+                </div>
+                <div class="nav-right">
+                    <i class="bi bi-bell"></i>
+                    <span class="badge">7</span>
+                    <img src="" alt="Photo de profil" id="profil">
+
+                </div>
+            </div>
+            <!-- fin navbar -->
+            <!-- debut tableau -->
+            <div class="contenu" id="contenu">
+                
+                <form class="form-SC">
+                    <!-- Email input -->
+                    <div class="">
+                        <label class="" for="textAreaExample">Sujet</label>
+                      <input type="text" id="form2Example1" class="form-control"/>
+                    </div>
+                  
+                    <!-- Message input -->
+                    <div class=""> <!-- Hassane Abdel-Razak -->
+                        <label class="" for="textAreaExample">Messages</label>
+                        <textarea class="form-control" id="textAreaExample"></textarea>
+                       
+                      </div>
+                  
+                    <!-- Submit button -->
+                    <div class="">
+                        <button class="btn" type="button" id="btn-SC">Envoyer</button>
+                      </div>      
+            
+                  </form>
+
+
+
+            </div>
+            <!-- fin tableau -->
+
+        </div>
+        <!-- fin élément droit -->
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

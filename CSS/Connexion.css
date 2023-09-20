@@ -1,0 +1,107 @@
+.forget {
+    text-align: left !important;
+}
+#connexion {
+    margin-top: 40%;
+    /* Décalage avec des marges */
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    /* Décalage avec translate */
+    text-align: center;
+}
+#log {
+    width: 100%;
+    display: block;
+    /* margin: auto; */
+    margin-bottom: -3rem;
+}
+
+#loginForm input,
+button {
+    width:100%;
+    height: 2.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#loginForm button{
+    background-color: #fff;
+    border: 2px solid green !important;
+    height: 2.5rem!important ;
+    color: green;
+    margin: 1%;
+    margin-top: 5%;
+}
+.message{
+    border: 2px solid green;
+     width: 30rem;
+     height: 6rem;
+     border-radius: 17px;
+    padding: 0px !important;
+    margin: 0px;
+    position: absolute;
+    top: 2%;
+    right:2%;
+    display: none;
+}
+.message .entete{
+    height: 3rem;
+    text-align: center;
+ 
+    border-radius: 15px;
+}
+.message .entete h2 {
+    margin: 0px;
+    padding-top: 0.5rem;  
+}
+.message .corps  {
+text-align: center;
+font-size: 1.2rem;
+}
+.chrono{
+    width: 15rem;
+    height:10rem ;
+    border-radius: 15px;
+    border: green 1px solid;
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    display: none;
+    background: #fff;
+}
+.chrono .entete {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    height: 5rem;
+}
+.chrono .entete h2{
+   margin: 0px;
+   padding-top: 20px;
+}
+.chrono .corps  {
+    padding-top: 20px;
+    text-align: center;
+}
+.chrono .corps span {
+    font-size:2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    #connexion{
+        margin-top: 60%;
+        width: 100%;
+    }
+    .message{
+        border: 2px solid green;
+         width: 25rem;
+         height: 6rem;
+      
+    }
+    .chrono {
+        position: absolute;
+        left: 20%;
+    }
+}

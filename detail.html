@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <title>Suivi Detail</title>
+</head>
+
+<body id="detail">
+    <div class="content" id="content">
+        <!-- debut sidebar -->
+        <div class="sidbar" id="sidbar">
+            <div>
+                <img src="Image/inval.png" alt="logo" id="Slogo">
+            </div>
+
+            <ul id="menu">
+                <li class="">
+                    <a href="dashboard.html" class="">
+                        <i class="fs-4 bi bi-grid"></i> <span class="">Dashboard</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="facture.html" class="">
+                        <i class="fs-4 bi bi-receipt"></i> <span class="">Facture</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="commande.html" class="">
+                        <i class="fs-4 bi bi-car-front-fill"></i> <span class="">Commande</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="suivi.html" class="">
+                        <i class="fs-4 bi bi-bag"></i> <span class="">Suivi</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="serviceClient.html" class="">
+                        <i class="fs-4 bi bi-chat-left-text"></i> <span class="">Service Client</span>
+                    </a>
+                </li> <!-- Hassane Abdel-Razak -->
+                <div class="bot" id="bot">
+                    <li class="">
+                        <a href="compte.html" class="">
+                            <i class="fs-4 bi bi-gear"></i> <span class="">Paramètre Compte</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="">
+                            <i class="fs-4 bi bi-box-arrow-left"></i> <span class="">Déconnexion</span>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <!-- fin sidebar -->
+
+        <!-- debut élément droit -->
+        <div class="right" id="right">
+            <!-- debut navbar -->
+            <div class="navbar" id="navbar">
+                <div class="nav-left">
+                    <a href="#sidbar" class="btnh" id="btn_menu">
+                        <span class="burger"> <i class="bi bi-list"></i></span>
+                    </a>
+                </div>
+                <div class="nav-right">
+                    <i class="bi bi-bell"></i>
+                    <span class="badge">7</span>
+                    <img src="" alt="Photo de profil" id="profil">
+
+                </div>
+            </div>
+            <!-- fin navbar -->
+            <!-- debut tableau -->
+            <span id="rap"><h2 class=""> <b>Rapport:</b> R-TE202303001</h2></span>
+
+            <div class="contenu" id="contenu">
+
+                <div class="cont">
+                    <div class="log">
+                    <span>  <img src="Image/inval.png" class="imag" alt="..."> </span>
+                    <span class="log1">LABORATOIRE </span>
+                    <span class="log2">LUBRIFIANT</span>
+                </div>
+                    <h2 class="text-center rap1">Rapport d'Analyse (Moteur)</h2>
+                       
+                    <!-- Tableau1 -->
+                    <div class="hack1">
+                        <table class="table" id="tab1">
+                          <thead>
+                            <tr>
+                              <th colspan="8">Information client</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr> <!-- Hassane Abdel-Razak -->
+                                <th colspan="2">Nom du client: </th>
+                                <td colspan="2">Boluda</td>
+                                <th colspan="2">Site de travail:</th>
+                                <td colspan="2">Abidjan</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Nom du Navire: </th>
+                                <td colspan="2">V8 SUPERENZO</td>
+                                <th colspan="2">Compartiment:</th>
+                                <td colspan="2">Moteur Principal Babord</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Marque: </th>
+                                <td colspan="2">CATERPILAR</td>
+                                <th colspan="2">Marque Huile:</th>
+                                <td colspan="2">PREMIUM</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Numero de Série: </th>
+                                <td colspan="2">V8 SUPERENZO</td>
+                                <th colspan="2">Grade Huile</th>
+                                <td colspan="2">20W50</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    <!-- Tableau1 -->
+                        <!-- tableau2 -->
+                        <div class="hack2">
+                        <table class="table" id="tab2">
+                            <thead>
+                              <tr style="border-top: 0.5px solid; background-color: #E7F9FD;">
+                                <th colspan="8">Information Echantillons</th>
+                              </tr>
+                             
+          
+                            </thead>
+                            <tbody;"> <!-- Hassane Abdel-Razak -->
+                              <tr>
+                                  <th colspan="4" style="width: 50%; border-right: 1px solid;">Code échantillon: </th>
+                                  <td style="border-right:1px solid">06-269-0030</td>
+                                  <td style="border-right:1px solid">06-196-0014</td>
+                                  <td style="border-right:1px solid">06-115-0016</td>
+                                  <td style="border-right:1px solid">05-316-0020</td>
+                              </tr>
+                              <tr>
+                                  <th colspan="4" style="border-right:1px solid">Date de prélèvement: </th>
+                                  <td style="border-right:1px solid">01/09/2022</td>
+                                  <td style="border-right:1px solid">11/07/2022</td>
+                                  <td style="border-right:1px solid">15/04/2022</td>
+                                  <td style="border-right:1px solid">18/11/2021</td>
+                              </tr>
+                              <tr>
+                                  <th colspan="4" style="border-right:1px solid">Date d'analyse: </th>
+                                  <td style="border-right:1px solid">28/09/2022</td>
+                                  <td style="border-right:1px solid">21/07/2022</td>
+                                  <td style="border-right:1px solid">25/04/2022</td>
+                                  <td style="border-right:1px solid">18/11/2021</td>
+                              </tr>
+                              <tr>
+                                <th colspan="4" style="border-right:1px solid">Compte horaire H: </th>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                            </tr>
+                              <tr>
+                                <th colspan="4" style="border-right:1px solid">Age huile H: </th>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                            </tr>
+                              <tr>
+                                <th colspan="4" style="border-right:1px solid">Vidange: </th>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                            </tr>
+                              <tr>
+                                <th colspan="4" style="border-right:1px solid">Appoint: </th>
+                                <td style="border-right:1px solid"> 40 </td>
+                                <td style="border-right:1px solid"> 29 </td>
+                                <td style="border-right:1px solid"> 35.7 </td>
+                                <td style="border-right:1px solid"> 127 </td>
+                            </tr>
+                            <tr>
+                                <th colspan="4" style="border-right:1px solid">FIltre changé: </th>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                                <td style="border-right:1px solid"> - </td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!-- tabbleau2 -->
+        
+                        <!-- Tableau3 -->
+                        <div class="hack3">
+                        <table class="table" id="tab3">
+                            <thead>
+                              <tr>
+                                <th>Paramètres</th>
+                                <th>Méthodes</th>
+                                <th>Unités</th>
+                                <th>Limites</th>
+                                <th colspan="4">Résultats</th>
+                              </tr>
+                              <tr style="border-top: 0.5px solid;">
+                              
+                                <th colspan="8">Metals/wear/Contaminants/Additives</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                  <td>Aluminium</td>
+                                  <td>ASTM D5185</td>
+                                  <td  >ppm</td>
+                                  <td > <8/16< </td>
+                                  <td >1,6</td>
+                                  <td >1</td>
+                                  <td >0</td>
+                                  <td >0</td> <!-- Hassane Abdel-Razak -->
+                              </tr>
+                              <tr>
+                                <td>Chrome</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <5/25< </td>
+                                <td >0.2</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0.22</td>
+                            </tr>
+                            <tr>
+                                <td>Cuivre</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <15/45< </td>
+                                <td class="bg-danger" >178</td>
+                                <td class="bg-danger" >204</td>
+                                <td class="bg-danger" >141</td>
+                                <td class="bg-danger" >288</td>
+                            </tr>
+                            <tr>
+                                <td>Etain</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <15/30< </td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0.28</td>
+                            </tr>
+                            <tr>
+                                <td>Fer</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <45/95< </td>
+                                <td >12.6</td>
+                                <td >13</td>
+                                <td >5.43</td>
+                                <td >10.2</td>
+                            </tr>
+                            <tr>
+                                <td>Nikel</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <5/15< </td>
+                                <td >1.2</td>
+                                <td >1</td>
+                                <td >0</td>
+                                <td >0</td>
+                            </tr>
+                            <tr>
+                                <td>Chrome</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <25/80< </td>
+                                <td >0</td>
+                                <td >1</td>
+                                <td >0.80</td>
+                                <td >0.67</td>
+                            </tr>
+                            <tr>
+                                <td>Silicium</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <20/40< </td>
+                                <td >3.58</td>
+                                <td >3</td>
+                                <td >0</td>
+                                <td >2.38</td>
+                            </tr>
+                            <tr>
+                                <td>Titan</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <10 </td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                            </tr>
+                            <tr>
+                                <td>Vadanium</td> <!-- Hassane Abdel-Razak -->
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <5 </td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                            </tr>
+                            <tr>
+                                <td>Argent</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <10 </td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                            </tr>
+                            <tr>
+                                <td>Cadmium</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > <10 </td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                                <td >0</td>
+                            </tr>
+                            <tr>
+                                <td>Sodium</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > - </td>
+                                <td class="bg-warning" > </td>
+                                <td class="bg-warning" > </td>
+                                <td class="bg-warning" > </td>
+                                <td class="bg-danger" > </td>
+                            </tr>
+                            <tr>
+                                <td>Calcium</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > - </td>
+                                <td >3577</td>
+                                <td >2895</td>
+                                <td >1158</td>
+                                <td >3220</td>
+                            </tr>
+                            <tr>
+                                <td>Magnesium</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > - </td>
+                                <td >16.7</td>
+                                <td >18</td>
+                                <td >30.04</td>
+                                <td >162</td>
+                            </tr>
+                            <tr>
+                                <td>Phosphore</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > - </td>
+                                <td >756</td>
+                                <td >713</td>
+                                <td >712</td>
+                                <td >727</td>
+                            </tr>
+                            <tr>
+                                <td>Zinc</td>
+                                <td>ASTM D5185</td>
+                                <td  >ppm</td>
+                                <td > - </td>
+                                <td >808</td>
+                                <td >596</td>
+                                <td >753</td>
+                            </tr>
+                            <tr style="border-top: 0.5px solid;">
+                                <th colspan="8">Metals/wear/Contaminants/Additives</th>
+                              </tr>
+                              <tr>
+                                <td>Viscosité à 100°</td>
+                                <td>ASTM D445</td>
+                                <td  >mm2/s</td> <!-- Hassane Abdel-Razak -->
+                                <td > <12,5/21< </td>
+                                <td class="bg-warning" >18.2</td>
+                                <td class="bg-warning" >18.1</td>
+                                <td class="bg-warning" >17.6</td>
+                                <td class="bg-danger" >20.3</td>
+                            </tr>
+                              <tr>
+                                <td>TBN</td>
+                                <td>ASTM D2896</td>
+                                <td  >mgKOH/g</td>
+                                <td >  </td>
+                                <td  >5.69</td>
+                                <td  >3.21</td>
+                                <td  >4.47</td>
+                                <td >9</td>
+                            </tr>
+                              <tr>
+                                <td>Point éclair</td>
+                                <td>ASTM D3828</td>
+                                <td  >°C</td>
+                                <td > >200 </td>
+                                <td  >220</td>
+                                <td class="bg-warning" >182</td>
+                                <td  >218</td>
+                                <td >220</td>
+                            </tr>
+                              <tr>
+                                <td>Suie</td>
+                                <td>ASTM E2412</td>
+                                <td  > ufm </td>
+                                <td > <60 </td>
+                                <td  >5.77</td>
+                                <td >15.1</td>
+                                <td  >0</td>
+                                <td >16.4</td>
+                            </tr>
+                              <tr>
+                                <td>Eau</td>
+                                <td>Crakkle Test</td>
+                                <td  > % </td>
+                                <td >  </td>
+                                <td >N</td>
+                                <td >N</td>
+                                <td >N</td>
+                                <td >N</td>
+                            </tr>
+                              <tr>
+                                <td>Dilution</td>
+                                <td> </td>
+                                <td  > - </td>
+                                <td >  </td>
+                                <td >N</td>
+                                <td >N</td>
+                                <td >N</td>
+                                <td >N</td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!-- Tableau3 -->
+                        <div class="bas">
+                            
+                                <div id="grad1"> 
+                                    <p> <h1 > X </h1></p>
+                                </div>
+                                
+                                <div style="margin-left: 1rem;">
+                                    <p class="small"><b>Commentaires: </b>
+                                        le taux de Cuivre  reste très élevé. Le Sodium toujours aussi élevé : à suivre. <br>
+                                        Vérifier ce compartiment et réparer si nécessaire. Voir les causes de présence de Sodium dans <br>
+                                         l’huile. Changer l’huile et le filtre. Refaire u prélèvement pour contrôle.
+                                    </p> <!-- Hassane Abdel-Razak -->
+         
+                                    <p class="small"> Diagnostic établi sous réserve de représentativité de l’échantillon et des informations fournies.</p>
+                                </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br><br><br>
+                  </div>
+
+
+            </div>
+            <!-- fin tableau -->
+
+        </div>
+        <!-- fin élément droit -->
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

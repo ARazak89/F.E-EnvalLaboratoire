@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <title>Parametre de compte</title>
+</head>
+
+<body>
+    <div class="content" id="content">
+        <!-- debut sidebar -->
+        <div class="sidbar" id="sidbar">
+            <div>
+                <img src="Image/inval.png" alt="logo" id="Slogo">
+            </div>
+
+            <ul id="menu">
+                <li class="">
+                    <a href="dashboard.html" class="">
+                        <i class="fs-4 bi bi-grid"></i> <span class="">Dashboard</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="facture.html" class="">
+                        <i class="fs-4 bi bi-receipt"></i> <span class="">Facture</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="commande.html" class="">
+                        <i class="fs-4 bi bi-car-front-fill"></i> <span class="">Commande</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="suivi.html" class="">
+                        <i class="fs-4 bi bi-bag"></i> <span class="">Suivi</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="serviceClient.html" class="">
+                        <i class="fs-4 bi bi-chat-left-text"></i> <span class="">Service Client</span>
+                    </a>
+                </li>
+                <div class="bot" id="bot">
+                    <li class="active">
+                        <a href="#" class="">
+                            <i class="fs-4 bi bi-gear"></i> <span class="">Paramètre Compte</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="">
+                            <i class="fs-4 bi bi-box-arrow-left"></i> <span class="">Déconnexion</span>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <!-- fin sidebar -->
+
+        <!-- debut élément droit -->
+        <div class="right" id="right">
+            <!-- debut navbar -->
+            <div class="navbar" id="navbar">
+                <div class="nav-left"> <!-- Hassane Abdel-Razak -->
+                    <a href="#sidbar" class="btnh" id="btn_menu">
+                        <span class="burger"> <i class="bi bi-list"></i></span>
+                    </a>
+                </div>
+                <div class="nav-right">
+                    <i class="bi bi-bell"></i>
+                    <span class="badge">7</span>
+                    <img src="" alt="Photo de profil" id="profil">
+
+                </div>
+            </div>
+            <!-- fin navbar -->
+            <!-- debut tableau -->
+            <div class="contenu" id="contenu">
+                <div class="pCompte">
+                    <div class="titreCompte">
+                        <div class="titreLeftCompte">
+                            <h2>Parametre du compte</h2>
+                            <a href="dashboard.html"><i class="bi bi-arrow-left"></i> retour au tableau de bord</a>
+                        </div>
+                        <div class="titreRightCompte">
+                            <button type="button" id="ModMp" style="background-color: #4A96A6;">Modifier le mot de
+                                passe</button>
+                            <button type="button" id="SupMp" style="background-color: red;">Supprimer le compte</button>
+                        </div>
+                    </div>
+                    <div class="contenueCompte">
+                        <div class="compteLeft">
+                            <h3>Modifier le profil</h3>
+
+                            <form action="" method="post" id="parametreCompte">
+                                <div class="inputNameCompte">
+                                    <label for="nom">Nom</label>
+                                    <input type="text" id="nom" name="nom" required><br><br>
+                                </div>
+                                <div class="inputMailCompte"> <!-- Hassane Abdel-Razak -->
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required><br><br>
+                                </div>
+                                <div class="inputBioCompte">
+                                    <label for="biographie">Biographie</label><br>
+                                    <textarea id="biographie" name="biographie" rows="10" cols="50"></textarea><br><br>
+                                </div>
+                                <input type="submit" value="Soumettre" class="submitCompte">
+                            </form>
+
+                        </div>
+                        <div class="compteRight">
+                            <h3>Ton Avatar</h3>
+                            <img src="" alt="tonAvatar" id="avatarImage">
+                            <button type="button" id="modifierAvatarButton" style="background-color: #4A96A6;">Modifier
+                                la photo</button>
+                            <button type="button" id="supAvatarBouton" style="background-color: red;">Supprimer la
+                                photo</button>
+                            <input type="file" id="fileInput" style="display: none;">
+                        </div>
+                        <div class="notif">
+                            <div class="titreNotif">
+
+                            </div>
+                            <div class="corpsNotif">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======================== Modifier Mot de passe =============================== -->
+                <div class="MpModifier">
+                    <div class="titreMMP">
+                        <h3>Modifer le mot de passe</h3>
+                    </div>
+                    <div class="contenuMMP">
+                        <form action="" method="post" id="MMPForm">
+                            <div class=""> <!-- Hassane Abdel-Razak -->
+                                <label for="ancienMP">Ancien mot de passe</label>
+                                <input type="text" id="ancienMP" name="ancienMP" required><br><br>
+                            </div>
+                            <div class="">
+                                <label for="newMp">Nouveau mot de passe</label>
+                                <input type="password" id="newMp" name="newMp" required><br><br>
+                            </div>
+                            <div class="">
+                                <label for="confNewMp">Confirmer mot de passe</label>
+                                <input type="password" id="confNewMp" name="confNewMp" required><br><br>
+                            </div>
+                            <input type="submit" value="Envoyer" class="submitCompte">
+                        </form>
+                    </div>
+                </div>
+                <!-- ======================== Modifier Mot de passe =============================== -->
+
+            </div>
+            <!-- fin tableau -->
+
+        </div>
+        <!-- fin élément droit -->
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
